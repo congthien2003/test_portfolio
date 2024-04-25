@@ -77,6 +77,10 @@ a i {
 	color: black;
 	background-color: #f4f4f4;
 }
+.item-link.active {
+	color: white;
+	background-color: #aaa5ff;
+}
 
 .header__menu {
 	display: none;
@@ -88,7 +92,7 @@ a i {
 	width: 90%;
 	padding: 20px 10px;
 	margin: 0px auto;
-	margin-top: 9rem;
+	margin-top: 8rem;
 }
 
 .slider {
@@ -232,10 +236,11 @@ a i {
 	width: 90%;
 	padding: 20px 10px;
 	margin: 0px auto;
-	margin-top: 4rem;
 }
 
 .programming {
+	padding-top: 150px;
+	margin-top: -100px;
 	display: flex;
 	width: 100%;
 	overflow: hidden;
@@ -283,7 +288,8 @@ a i {
 
 /* Proficiency */
 .proficiency {
-	margin-top: 48px;
+	padding-top: 150px;
+	margin-top: -100px;
 	display: flex;
 	align-items: center;
 	gap: 20px;
@@ -341,8 +347,9 @@ a i {
 
 /* Education */
 .education {
-	margin-top: 48px;
 	padding: 15px 20px;
+	padding-top: 150px;
+	margin-top: -100px;
 }
 .education-card {
 	margin-top: 24px;
@@ -390,8 +397,9 @@ a i {
 
 /* Experiences */
 .experiences {
-	margin-top: 60px;
 	padding: 15px 20px;
+	padding-top: 150px;
+	margin-top: -100px;
 }
 
 .list-exp-card {
@@ -463,8 +471,9 @@ a i {
 
 /* Project */
 .project {
-	margin-top: 60px;
 	padding: 15px 20px;
+	padding-top: 150px;
+	margin-top: -100px;
 }
 
 .list-project {
@@ -524,8 +533,9 @@ a i {
 }
 
 .achivements {
-	margin-top: 60px;
 	padding: 15px 20px;
+	padding-top: 150px;
+	margin-top: -100px;
 }
 
 .achie-btn-wrapper {
@@ -559,8 +569,9 @@ a i {
 }
 
 .contact {
-	margin-top: 60px;
+	height: 600px;
 	padding: 15px 20px;
+	margin-top: 150px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;

@@ -22,7 +22,7 @@
 	</head>
 	<body>
 		<div class="header--wrapper">
-			<header class="header">
+			<header class="header" id="header">
 				<div class="header__logo">
 					<!-- <img src="./asset/images/" alt="logo" /> -->
 					<i class="bx bx-chevron-left"></i><span>nyueT</span
@@ -36,26 +36,30 @@
 				<nav class="header__nav">
 					<ul class="list">
 						<li class="list-item">
-							<a href="" class="item-link">Skill</a>
+							<a href="#skill" class="item-link">Skill</a>
 						</li>
 						<li class="list-item">
-							<a href="" class="item-link">Work Experiences</a>
+							<a href="#experiences" class="item-link"
+								>Work Experiences</a
+							>
 						</li>
 						<li class="list-item">
-							<a href="" class="item-link">Open Source</a>
+							<a href="#project" class="item-link">Open Source</a>
 						</li>
 						<li class="list-item">
-							<a href="" class="item-link">Achievements</a>
+							<a href="#achivements" class="item-link"
+								>Achievements</a
+							>
 						</li>
 						<li class="list-item">
-							<a href="" class="item-link">Contact Me</a>
+							<a href="#contact" class="item-link">Contact Me</a>
 						</li>
 					</ul>
 				</nav>
 			</header>
 		</div>
 		<div class="slider--wrapper">
-			<section class="slider">
+			<div class="slider" id="home">
 				<div class="slider--intro">
 					<div class="slider--intro--title">
 						<h1>
@@ -113,133 +117,139 @@
 						width="90%"
 						height="90%" />
 				</div>
-			</section>
+			</div>
 		</div>
 
 		<div class="content">
-			<div class="programming">
-				<div class="programming--img">
-					<img src="./asset/images/gtr.webp" alt="" width="100%" />
-				</div>
-				<div class="programming--content">
-					<h2 class="title-content">What I Do</h2>
-					<p>
-						CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY
-						TECH STACK
-					</p>
-					<div class="programming--icon">
-						<i class="bx bxl-html5"></i>
-						<i class="bx bxl-css3"></i>
-						<i class="bx bxl-javascript"></i>
-						<i class="bx bxl-typescript"></i>
+			<section id="skill">
+				<div class="programming" id="programming">
+					<div class="programming--img">
+						<img
+							src="./asset/images/gtr.webp"
+							alt=""
+							width="100%" />
+					</div>
+					<div class="programming--content">
+						<h2 class="title-content">What I Do</h2>
+						<p>
+							CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE
+							EVERY TECH STACK
+						</p>
+						<div class="programming--icon">
+							<i class="bx bxl-html5"></i>
+							<i class="bx bxl-css3"></i>
+							<i class="bx bxl-javascript"></i>
+							<i class="bx bxl-typescript"></i>
 
-						<i class="bx bxl-bootstrap"></i>
-						<i class="bx bxl-angular"></i>
-						<i class="bx bxs-data"></i>
-						<i class="bx bxl-postgresql"></i>
-						<i class="bx bxl-docker"></i>
-					</div>
-					<div class="programming--subtitle">
-						<p class="subtitle">
-							⚡ Develop highly interactive Front end / User
-							Interfaces for your web and mobile applications
-						</p>
-						<p class="subtitle">
-							⚡ Progressive Web Applications ( PWA ) in normal
-							and SPA Stacks
-						</p>
-						<p class="subtitle">
-							⚡ Integration of third party services such as
-							Firebase/ AWS / Digital Ocean
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="proficiency">
-				<div class="proficiency--content">
-					<h2 class="title-content">Proficiency</h2>
-					<div class="proficiency--process">
-						<div class="process">
-							<p>Frontend</p>
-							<div class="process-bar"></div>
+							<i class="bx bxl-bootstrap"></i>
+							<i class="bx bxl-angular"></i>
+							<i class="bx bxs-data"></i>
+							<i class="bx bxl-postgresql"></i>
+							<i class="bx bxl-docker"></i>
 						</div>
-						<div class="process">
-							<p>Backend</p>
-							<div class="process-bar"></div>
-						</div>
-						<div class="process">
-							<p>Database</p>
-							<div class="process-bar"></div>
-						</div>
-					</div>
-				</div>
-				<div class="proficiency--img">
-					<img
-						src="./asset/images/developerActivity.svg"
-						alt=""
-						width="100%" />
-				</div>
-			</div>
-			<div class="education">
-				<div class="education--content">
-					<h2 class="title-content">Education</h2>
-					<div class="education-card">
-						<div class="education--logo">
-							<img
-								src="./asset/images/logo-hutech.png"
-								alt="logo"
-								width="100%" />
-						</div>
-						<div class="education--info">
-							<h5 class="school-name">Hutech University</h5>
-							<p class="major-name">Infomation Technology</p>
-							<p class="time">September 2017 - April 2019</p>
-							<p class="subcription">
-								Participated in the research of XXX and
-								published 3 papers.
+						<div class="programming--subtitle">
+							<p class="subtitle">
+								⚡ Develop highly interactive Front end / User
+								Interfaces for your web and mobile applications
 							</p>
-							<ul>
-								<li>
-									Lorem ipsum dolor sit amet, consectetur
-									adipiscing elit
-								</li>
-								<li>
-									Lorem ipsum dolor sit amet, consectetur
-									adipiscing elit
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="education-card">
-						<div class="education--logo">
-							<img
-								src="./asset/images/logo-hutech.png"
-								alt="logo"
-								width="100%" />
-						</div>
-						<div class="education--info">
-							<h5 class="school-name">Hutech University</h5>
-							<p class="major-name">Infomation Technology</p>
-							<p class="time">September 2017 - April 2019</p>
-							<p class="subcription">
-								Participated in the research of XXX and
-								published 3 papers.
+							<p class="subtitle">
+								⚡ Progressive Web Applications ( PWA ) in
+								normal and SPA Stacks
 							</p>
-							<ul>
-								<li>
-									Lorem ipsum dolor sit amet, consectetur
-									adipiscing elit
-								</li>
-								<li>
-									Lorem ipsum dolor sit amet, consectetur
-									adipiscing elit
-								</li>
-							</ul>
+							<p class="subtitle">
+								⚡ Integration of third party services such as
+								Firebase/ AWS / Digital Ocean
+							</p>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="experiences">
+				<div class="proficiency" id="proficiency">
+					<div class="proficiency--content">
+						<h2 class="title-content">Proficiency</h2>
+						<div class="proficiency--process">
+							<div class="process">
+								<p>Frontend</p>
+								<div class="process-bar"></div>
+							</div>
+							<div class="process">
+								<p>Backend</p>
+								<div class="process-bar"></div>
+							</div>
+							<div class="process">
+								<p>Database</p>
+								<div class="process-bar"></div>
+							</div>
+						</div>
+					</div>
+					<div class="proficiency--img">
+						<img
+							src="./asset/images/developerActivity.svg"
+							alt=""
+							width="100%" />
+					</div>
+				</div>
+				<div class="education" id="education">
+					<div class="education--content">
+						<h2 class="title-content">Education</h2>
+						<div class="education-card">
+							<div class="education--logo">
+								<img
+									src="./asset/images/logo-hutech.png"
+									alt="logo"
+									width="100%" />
+							</div>
+							<div class="education--info">
+								<h5 class="school-name">Hutech University</h5>
+								<p class="major-name">Infomation Technology</p>
+								<p class="time">September 2017 - April 2019</p>
+								<p class="subcription">
+									Participated in the research of XXX and
+									published 3 papers.
+								</p>
+								<ul>
+									<li>
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit
+									</li>
+									<li>
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="education-card">
+							<div class="education--logo">
+								<img
+									src="./asset/images/logo-hutech.png"
+									alt="logo"
+									width="100%" />
+							</div>
+							<div class="education--info">
+								<h5 class="school-name">Hutech University</h5>
+								<p class="major-name">Infomation Technology</p>
+								<p class="time">September 2017 - April 2019</p>
+								<p class="subcription">
+									Participated in the research of XXX and
+									published 3 papers.
+								</p>
+								<ul>
+									<li>
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit
+									</li>
+									<li>
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="experiences" id="experiences">
 				<h2 class="title-content">Experiences</h2>
 				<ul class="list-exp-card">
 					<div class="exp-card">
@@ -309,8 +319,8 @@
 						</div>
 					</div>
 				</ul>
-			</div>
-			<div class="project">
+			</section>
+			<section class="project" id="project">
 				<h2 class="title-content">Big Projects</h2>
 				<p class="subtitle">
 					SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR
@@ -366,8 +376,8 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="achivements">
+			</section>
+			<section class="achivements" id="achivements">
 				<h2 class="title-content">
 					Achievements And Certifications 🏆
 				</h2>
@@ -446,8 +456,8 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="contact">
+			</section>
+			<section class="contact" id="contact">
 				<div class="contact-content">
 					<h2 class="title-content">Contact Me ☎️</h2>
 					<p class="subtitle">
@@ -490,7 +500,7 @@
 						alt=""
 						width="50%" />
 				</div>
-			</div>
+			</section>
 		</div>
 
 		<script src="./app.js"></script>
